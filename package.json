@@ -1,0 +1,28 @@
+{
+  "name": "playwright_api_testing",
+  "version": "1.0.0",
+  "description": "API automation with playwright",
+  "main": "index.js",
+  "scripts": {
+    "tests:api": "playwright test --config=api.config.ts --project=Chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahlep/playwright_api_testing.git"
+  },
+  "keywords": [
+    "API",
+    "playwright",
+    "typescript"
+  ],
+  "author": "Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahlep/playwright_api_testing/issues"
+  },
+  "homepage": "https://github.com/shahlep/playwright_api_testing#readme",
+  "dependencies": {
+    "@playwright/test": "^1.19.1",
+    "playwright": "^1.19.1"
+  }
+}
