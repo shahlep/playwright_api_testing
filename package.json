@@ -4,7 +4,7 @@
   "description": "API automation with playwright",
   "main": "index.js",
   "scripts": {
-    "tests:api": "playwright test --config=api.config.ts --project=Chromium"
+    "tests:api": "playwright test --config=playwright.config.ts --project=Chromium"
   },
   "repository": {
     "type": "git",
